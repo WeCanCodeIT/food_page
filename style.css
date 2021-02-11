@@ -8,8 +8,50 @@
 
 
 body {
-color:blueviolet;
 width: 80%;
-background-image: url("images/background.jpg");
+background-image: url("images/background2.jpg");
 background-size: cover;
+text-align: center;
+padding-left: 20rem;
 }
+
+.nav-parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#menu{
+    margin: 2rem auto;
+}
+
+#events{
+    margin: 2rem auto;
+}
+
+#contact{
+    margin: 2rem auto;
+}
+
+section{
+    background-color: rgb(156, 59,59);
+    opacity: 80%;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+    border-radius: 7px;
+}
+
+
+
+
+li{
+    list-style-position: inside;
+    text-align: left;
+    list-style: none;
+    padding-left: 5rem;
+}
+
+h2{
+    padding-bottom: 2rem;
+}
+
