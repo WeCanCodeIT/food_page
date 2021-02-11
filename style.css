@@ -12,8 +12,14 @@ width: 80%;
 background-image: url("images/background2.jpg");
 background-size: cover;
 padding-left: 20rem;
+place-items: center;
 text-align: center;
 }
+
+.main-container{
+    display: grid;
+}
+
 
 .nav-parent{
     display: grid;
@@ -22,11 +28,12 @@ text-align: center;
 }
 
 #menu{
-    display: grid;
-    margin: 2rem auto; 
+    /* display: grid; */
+    margin: auto; 
     /* padding: 0; */
 
-}
+} 
+
 
 #events{
     display: grid;
@@ -38,9 +45,7 @@ text-align: center;
 
 }
 
-ul{
-    ;
-}
+
 
 li{
     list-style-position: inside;
