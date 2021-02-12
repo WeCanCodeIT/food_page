@@ -46,16 +46,14 @@ body {
 
 #events{
     margin: 2rem auto; 
-    border-color: bisque;
-    border-width: 20px;
-
+    flex-wrap: wrap;
+    
 }
 
 #article-section{
     display: flex;
     justify-content: space-between;
-    border-color: bisque;
-    border-width: 20px;
+   
  }
 
 #contact{
